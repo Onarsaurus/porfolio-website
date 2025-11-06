@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Arial, sans-serif;
@@ -65,7 +69,7 @@ body {
   font-size: 1rem;
 }
 
-.about {
+#about {
   padding: 50px 20px;
 }
 
@@ -95,7 +99,7 @@ body {
   margin-bottom: 20px;
 }
 
-.projects {
+#projects {
   border-top: 1px solid #cccccc;
   padding: 50px 20px;
   text-align: center;
@@ -126,7 +130,7 @@ body {
   margin-bottom: 10px;
 }
 
-.contact {
+#contact {
   border-top: 1px solid #cccccc;
   text-align: center;
   padding: 50px 20px;
