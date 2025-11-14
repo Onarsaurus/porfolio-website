@@ -4,7 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta tag="description" content="Omar Sarazua's Portfolio Website">
+    <meta tag="keywords" content="Application Developer, Web Developer, Full Stack Developer, HTML, CSS, JavaScript, JSP, Java">
     <title>Portfolio - Omar Sarazua</title>
+    <link rel="icon" href="images/favIcon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,7 +25,7 @@
 
     <section class="hero">
         <h1>Hello, I'm Omar!</h1>
-        <img src="images/icon.png" alt="Profile Picture Icon" class="icon">
+        <img src="images/icon.png" alt="Profile picture icon" class="icon">
         <h2>Application Developer</h2>
         <p>Passionate in full stack web development and user experience</p>
     </section>
@@ -54,33 +57,136 @@
         <h2>Projects</h2>
 
         <div class="project">
-            <img src="images/DTLogo.png" alt="Dream Tasker Icon">
+            <img class="projectLogo" src="images/DTLogo.png" alt="Dream Tasker logo">
             <div class="projectText">
-                <h3><a href="dreamtasker.html">Dream Tasker</a></h3>
+                <h3><a aria-label="Toggles the Dream Tasker overview" href="#">Dream Tasker</a></h3>
                 <p>
                     A web application using JSPs and Java. Allows users to schedule events, use lists, mark notes,
                     and even manage their finances, all in one website. The ultimate Swiss army knife of task
                     management.
                 </p>
+                <article>
+                    <h4>Overview</h4>
+
+                    <img class="projectScreenshot" src="images/DTThumbnail.png" alt="A screen shot of the Dream Tasker application">
+
+                    <p> Introducing the Dream Tasker, the be all and end all of task managment! Designed to be the
+                        ultimate
+                        Swiss army knife of managment, this web application provides users with an easy to use and
+                        visually
+                        appealing calendar, lists, notes, budgeting, and more! For anyone who is tired of using mutliple
+                        tabs or pieces of paper for keeping track of their day to day responsibilities, take a rest and
+                        dream on in this one solves all solution.</p>
+
+                    <h4> My process </h4>
+
+                    <p> Before any code was written I used Lucid Charts to create class diagrams and database structure
+                        diagrams (UML). Once I had enough to work with and a solid vision I began creating the classes I
+                        needed and the front end, creating the main pages I would need for basic functionality like
+                        logging
+                        in and logging out. With that, I also needed a database and used my diagram to create it and
+                        work
+                        with. Generally, I tried to avoid css and thematic design, as I wanted to focus on the core
+                        functionality. My development for this project has unfortunately been a little all over the
+                        place,
+                        jumping from feature to feature, but I began with figuring out how to go about the calendar.
+                        Eventually I decided to use Calendar.js. From then on I wanted to work with lists. It was
+                        difficult
+                        to figure out the database side of working with lists but eventually I was able to get to an ok
+                        spot
+                        with the feature. Then I worked on a simple profile page where you could change your username
+                        and
+                        password. Throughout this whole process, I have asked the people around me what ideas they have
+                        and
+                        if they thought I could do something better, which has been a big help during the process.
+                    </p>
+
+                    <h4>Built with</h4>
+                    <p>
+                    <ul>
+                        <li>NetBeans IDE 21</li>
+                        <li>MariaDB (a fork of MySQL)</li>
+                        <li>JDK Version 17</li>
+                        <li>Semantic HTML5 markup</li>
+                        <li>CSS custom properties</li>
+                        <li>Flexbox</li>
+                        <li>Java, JavaScript</li>
+                        <li>JSP, JSTL, jQuery</li>
+                    </ul>
+                    </p>
+
+
+                    <h4>What I learned</h4>
+
+                    <p> I've learned a lot from this project, but to keep it short here are the main things I've learned
+                        (or
+                        learned more about) worth noting: database storage, servlets, JavaScript and back end
+                        communication,
+                        CSS, UX.</p>
+
+
+                    <h4>Continued Development</h4>
+
+
+                    <p> I would like to continue finalizing the calendar and, well, most every feature can be improved
+                        and
+                        finalized. I look forward to creating a cleaner UI/UX and will work to create truly the perfect
+                        one
+                        solves all task managment website. I would also like to implement cleaner and more efficient
+                        code
+                        overall. Once I've finalized features and optimized code I'll look to publish the website and
+                        personally make use of it.</p>
+
+
+                    <h4>Useful Resources</h4>
+
+                    <p>
+                    <ul>
+                        <li>Lucid Charts</li>
+                        <li>Apache NetBeans</li>
+                        <li>Apache Tomcat Version 9</li>
+                        <li>XAMPP Control Panel V3.3.0</li>
+                        <li>PhpMyAdmin (graphic ui for easier db managment)</li>
+                        <li>Calendar.js</li>
+                        <li>MDN Web Docs</li>
+                        <li>Oracle</li>
+                        <li>GitHub</li>
+                    </ul>
+                    </p>
+
+
+                </article>
             </div>
         </div>
 
         <div class="project">
-            <img src="images/PCBLogo.png" alt="Project Cannonball Logo">
+            <img class="projectLogo" src="images/PCBLogo.png" alt="Project Cannonball logo">
             <div class="projectText">
-                <h3><a>Project Cannonball</a></h3>
+                <h3><a aria-label="Toggles the Project Cannonball overview" href="#">Project Cannonball</a></h3>
                 <p>
                     A web application GUI for interacting with a physical “cannon” that uses a queue of commands to
                     execute
                     its movements and actions. Uses JSPs for the GUI, Java, and Python.
                 </p>
+                <article>
+                    <h4>Overview</h4>
+
+                    <img class="projectScreenshot" src="images/PCBThumbnail.png" alt="A screen shot of the Project Cannonball application">
+
+                    <p> Project Cannonball is a web application that allows users to interact with a physical cannon
+                        using a
+                        queue of commands. The cannon can move in different directions, adjust its angle, and fire
+                        projectiles.
+                        The web application provides a user-friendly interface for controlling the cannon and managing
+                        the
+                        command queue.</p>
             </div>
         </div>
 
         <div class="project">
-            <img src="images/LHLogo.png" alt="La Herradura Logo">
+            <img class="projectLogo" src="images/LHLogo.png" alt="La Herradura logo">
             <div class="projectText">
-                <h3><a>La Herradura</a></h3>
+                <h3><a aria-label="Toggles the La Herradura overview" href="#">La Herradura</a></h3>
                 <p>
                     The official website for La Herradura, an authentic Mexican restaurant located in Sheridan, WY,
                     which aims to bring quality food and service to its residents.
@@ -95,15 +201,18 @@
             For any questions, business inquiries, or anything else, you can contact me below.
         </p>
         <div class="contactButtons">
-            <a href="https://github.com/Onarsaurus" class="button">GitHub</a>
-            <a href="mailto:omarsanchezsar@gmail.com" class="button">Get in touch!</a>
-            <a href="https://www.linkedin.com/in/omar-sarazua-0515612a0/" class="button">LinkedIn</a>
+            <a aria-label="Link to Github page" href="https://github.com/Onarsaurus" class="button">GitHub</a>
+            <a aria-label="Link to email" href="mailto:omarsanchezsar@gmail.com" class="button">Get in touch!</a>
+            <a aria-label="Link to LinkedIn page" href="https://www.linkedin.com/in/omar-sarazua-0515612a0/" class="button">LinkedIn</a>
         </div>
     </section>
 
     <footer>
         <p>~ Omar Sarazua ~</p>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="portfolio.js"></script>
 </body>
 
 </html>
