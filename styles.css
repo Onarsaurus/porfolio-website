@@ -183,7 +183,6 @@ body {
   background-color: #ff9900;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 15px;
@@ -191,3 +190,5 @@ footer {
   color: #555555;
   border-top: 1px solid #dddddd;
 }
+
+/* ADD MEDIA QUERIES FOR RESPONSIVENESS */
